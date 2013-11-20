@@ -1,0 +1,21 @@
+ExtractCodes:
+-------------
+Extract codes from invitecodematrix.com and save them in a text file
+
+1) Build the distributable zip using the following command:
+
+mvn assembly:assembly
+
+2) Extract the zip file in desired location.
+
+3) Edit startup.bat with your username and password.
+
+4) Run startup.bat
+
+startup -l username -p password [[-start] page] [[-end] page] [[-output] file name]
+
+Default start page is 1, default end page is start page + 10.
+Default output file name is output.txt in the current directory.
+
+
+
